@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\james\\\\Desktop\\\\diablo_qqt\\\\scripts\\\\SteroidAlfredButler-master\\\\\" -Recurse | ForEach-Object { $_.FullName })",
+      "Bash(git ls-tree *)",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git revert *)",
+      "Bash(git clean *)",
+      "Bash(dir /b c:\\\\Users\\\\james\\\\Desktop\\\\diablo_qqt\\\\scripts)",
+      "Bash(git fetch *)"
+    ]
+  }
+}
